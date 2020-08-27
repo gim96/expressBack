@@ -37,7 +37,7 @@ router.get("/", function (req, res) {
       });
   });
   // MongoClient.connect(
-  //   "mongodb + srv://admin:WMgim@96@cluster0.z6xtu.mongodb.net/sample_airbnb?retryWrites=true&w=majority;",
+
   //   function (err, client) {
   //     if (err) throw err;
 
