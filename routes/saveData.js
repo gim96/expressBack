@@ -2,8 +2,6 @@ var express = require("express");
 var router = express.Router();
 
 var MongoClient = require("mongodb").MongoClient;
-var uri =
-  "mongodb+srv://admin:WMgim@96@cluster0.z6xtu.mongodb.net/testdb?retryWrites=true&w=majority";
 
 /* GET users listing. */
 router.get("/", function (req, res, next) {

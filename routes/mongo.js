@@ -3,8 +3,6 @@ var router = express.Router();
 
 var MongoClient = require("mongodb").MongoClient;
 //var mongoose = require("mongoose");
-var uri =
-  "mongodb+srv://admin:WMgim@96@cluster0.z6xtu.mongodb.net/testdb?retryWrites=true&w=majority";
 
 // router.get("/insert", function (req, res) {
 //   MongoClient.connect(uri, function (err, db) {
